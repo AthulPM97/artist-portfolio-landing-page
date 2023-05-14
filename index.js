@@ -33,3 +33,9 @@ TweenMax.to('.karina', 2, {
     width: '800px',
     ease: Power2.easeInOut,
 })
+
+TweenMax.staggerFrom('.bottomnav ul li', 2, {
+    delay: 1,
+    x: 1000,
+    ease: Circ.easeInOut,
+}, 0.08)
